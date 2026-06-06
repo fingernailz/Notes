@@ -5,7 +5,7 @@ info:
 
 http:
   method: PUT
-  url: http://localhost:8080/notes/1/whatever_happened_thereEEE
+  url: https://notes-proxy.up.railway.app/notes/1/whatever_happened_thereEEE
   auth: inherit
 
 settings:

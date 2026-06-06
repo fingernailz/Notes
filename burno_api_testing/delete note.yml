@@ -5,7 +5,7 @@ info:
 
 http:
   method: DELETE
-  url: http:localhost:8080/notes/1
+  url: https://notes-proxy.up.railway.app/notes/1
   auth: inherit
 
 settings:

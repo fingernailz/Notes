@@ -13,3 +13,7 @@ or
 ```bash
 bash run.sh
 ```
+
+#### Testing the API
+
+Either download burno and open ```burno_api_testing``` as a collection or just Curl it.
