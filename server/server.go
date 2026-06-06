@@ -14,6 +14,11 @@ func StartAPIService() error {
 	server := createServer()
 	server.HandleFunc("GET /", api.GetRoot)
 	server.HandleFunc("GET /healthz", api.GetHealth)
-	server.Handle("GET /notes", api.GetAllNotes)
+	server.HandleFunc("GET /allnotes", api.GetAllNotes)
+	server.HandleFunc("GET /notes/{id}", api.GetNote)
+	server.HandleFunc("POST /notes/{id}/{content}", api.AddNote)
+	server.HandleFunc("PUT /notes/{id}/{content}", api.UpdateNote)
+	server.HandleFunc("DELETE /notes/{id}", api.DeleteNote)
+	server.HandleFunc("GET /generate_api_key", api.GenerateAPIKey)
 	return http.ListenAndServe(":8080", server)
 }
