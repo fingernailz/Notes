@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: http://localhost:8080/notes/1/fuckyoumoron
+  url: https://notes-proxy.up.railway.app/notes/1/fuckyoumoron
   auth: inherit
 
 settings:
