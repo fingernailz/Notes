@@ -5,7 +5,7 @@ info:
 
 http:
   method: PUT
-  url: https://notes-proxy.up.railway.app/notes/1/whatever_happened_thereEEE
+  url: https://notes-proxy.up.railway.app/notes/1/What_the_fuck_carmine
   auth: inherit
 
 settings:
